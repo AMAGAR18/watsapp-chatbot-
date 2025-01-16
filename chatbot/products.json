@@ -1,0 +1,422 @@
+{
+  "smartphones": [
+    {
+      "id": "1",
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 799,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Midnight", "Starlight", "Blue", "Purple", "Red"],
+      "display": {
+        "size": "6.1-inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2532 x 1170 pixels"
+      },
+      "processor": "Apple A15 Bionic chip",
+      "camera": {
+        "front": "12 MP",
+        "rear": {
+          "wide": "12 MP",
+          "ultraWide": "12 MP",
+          "telephoto": "n/a"
+        },
+        "features": ["Night mode", "Deep Fusion", "Smart HDR 4"]
+      },
+      "battery": {
+        "capacity": "3279 mAh",
+        "charging": "MagSafe wireless charging, 20W wired"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.7
+    },
+    {
+      "id": "2",
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "price": 999,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Phantom Black", "Cream", "Green", "Lavender"],
+      "display": {
+        "size": "6.1-inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "2340 x 1080 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "12 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "12 MP",
+          "telephoto": "10 MP (3x optical zoom)"
+        },
+        "features": ["Super Steady Video", "Nightography", "Space Zoom"]
+      },
+      "battery": {
+        "capacity": "3900 mAh",
+        "charging": "25W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "brand": "OnePlus",
+      "model": "OnePlus 11",
+      "price": 749,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Eternal Green", "Titanium Black"],
+      "display": {
+        "size": "6.7-inch",
+        "type": "Fluid AMOLED",
+        "resolution": "3216 x 1440 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "16 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "48 MP",
+          "telephoto": "32 MP (2x optical zoom)"
+        },
+        "features": ["AI Camera", "UltraShot HDR", "Nightscape"]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "charging": "100W SuperVOOC wired charging"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.6
+    },
+    {
+      "id": "4",
+      "brand": "Google",
+      "model": "Pixel 8",
+      "price": 699,
+      "storage": ["128GB", "256GB"],
+      "color": ["Obsidian", "Pink", "Porcelain"],
+      "display": {
+        "size": "6.2-inch",
+        "type": "OLED",
+        "resolution": "2400 x 1080 pixels"
+      },
+      "processor": "Google Tensor G3 chip",
+      "camera": {
+        "front": "10.8 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "12 MP",
+          "telephoto": "n/a"
+        },
+        "features": ["Night Sight", "Super Res Zoom", "Real Tone"]
+      },
+      "battery": {
+        "capacity": "4600 mAh",
+        "charging": "18W wired, 12W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.5
+    },
+    {
+      "id": "5",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13 Pro",
+      "price": 899,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Black", "White", "Green"],
+      "display": {
+        "size": "6.73-inch",
+        "type": "AMOLED",
+        "resolution": "3200 x 1440 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "32 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "50 MP",
+          "telephoto": "50 MP (3.2x optical zoom)"
+        },
+        "features": ["Leica Professional Optics", "Macro Mode", "AI Image Enhancement"]
+      },
+      "battery": {
+        "capacity": "4820 mAh",
+        "charging": "120W wired, 50W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "brand": "Oppo",
+      "model": "Find X6 Pro",
+      "price": 1099,
+      "storage": ["256GB", "512GB"],
+      "color": ["Black", "Green", "Gold"],
+      "display": {
+        "size": "6.82-inch",
+        "type": "LTPO AMOLED",
+        "resolution": "3168 x 1440 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "32 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "50 MP",
+          "telephoto": "50 MP (3x optical zoom)"
+        },
+        "features": ["AI Color Portrait", "Ultra Night Mode", "Zoom Enhancement"]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "charging": "80W SuperVOOC wired charging, 50W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.9
+    },
+    {
+      "id": "7",
+      "brand": "Realme",
+      "model": "Realme GT 2 Pro",
+      "price": 799,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Pine Green", "Steel Blue", "Paper White"],
+      "display": {
+        "size": "6.7-inch",
+        "type": "LTPO2 AMOLED",
+        "resolution": "3216 x 1440 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 1",
+      "camera": {
+        "front": "32 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "50 MP",
+          "macro": "3 MP"
+        },
+        "features": ["Ultra Night Mode", "Super Wide-angle lens", "AI Smart Scene Recognition"]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "charging": "65W SuperDart Charge"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.6
+    },
+     {
+      "id": "1",
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 799,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Midnight", "Starlight", "Blue", "Purple", "Red"],
+      "display": {
+        "size": "6.1-inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "2532 x 1170 pixels"
+      },
+      "processor": "Apple A15 Bionic chip",
+      "camera": {
+        "front": "12 MP",
+        "rear": {
+          "wide": "12 MP",
+          "ultraWide": "12 MP"
+        },
+        "features": ["Night mode", "Deep Fusion", "Smart HDR 4"]
+      },
+      "battery": {
+        "capacity": "3279 mAh",
+        "charging": "MagSafe wireless charging, 20W wired"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.7
+    },
+    {
+      "id": "2",
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "price": 999,
+      "storage": ["128GB", "256GB", "512GB"],
+      "color": ["Phantom Black", "Cream", "Green", "Lavender"],
+      "display": {
+        "size": "6.1-inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "2340 x 1080 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "12 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "12 MP",
+          "telephoto": "10 MP (3x optical zoom)"
+        },
+        "features": ["Super Steady Video", "Nightography", "Space Zoom"]
+      },
+      "battery": {
+        "capacity": "3900 mAh",
+        "charging": "25W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.8
+    },
+    {
+      "id": "8",
+      "brand": "Sony",
+      "model": "Xperia 1 V",
+      "price": 1399,
+      "storage": ["256GB", "512GB"],
+      "color": ["Black", "Silver", "Green"],
+      "display": {
+        "size": "6.5-inch",
+        "type": "4K OLED",
+        "resolution": "3840 x 1644 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "12 MP",
+        "rear": {
+          "wide": "48 MP",
+          "ultraWide": "12 MP",
+          "telephoto": "12 MP (3.5x optical zoom)"
+        },
+        "features": ["Eye AF", "CineAlta", "Pro video features"]
+      },
+      "battery": {
+        "capacity": "5000 mAh",
+        "charging": "30W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.7
+    },
+    {
+      "id": "9",
+      "brand": "Asus",
+      "model": "ROG Phone 7 Ultimate",
+      "price": 1499,
+      "storage": ["512GB", "1TB"],
+      "color": ["Black", "White"],
+      "display": {
+        "size": "6.78-inch",
+        "type": "AMOLED",
+        "resolution": "2448 x 1080 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "32 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "13 MP",
+          "macro": "5 MP"
+        },
+        "features": ["Gaming triggers", "AeroActive Cooler", "120Hz refresh rate"]
+      },
+      "battery": {
+        "capacity": "6000 mAh",
+        "charging": "65W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": false,
+      "rating": 4.8
+    },
+    {
+      "id": "10",
+      "brand": "Huawei",
+      "model": "Mate 50 Pro",
+      "price": 1199,
+      "storage": ["256GB", "512GB"],
+      "color": ["Black", "Silver", "Orange"],
+      "display": {
+        "size": "6.74-inch",
+        "type": "OLED",
+        "resolution": "2616 x 1212 pixels"
+      },
+      "processor": "Kirin 9000S",
+      "camera": {
+        "front": "13 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "13 MP",
+          "telephoto": "64 MP (3.5x optical zoom)"
+        },
+        "features": ["Variable aperture", "Ultra Vision XD Fusion", "AI HDR"]
+      },
+      "battery": {
+        "capacity": "4700 mAh",
+        "charging": "66W wired, 50W wireless"
+      },
+      "5g": false,
+      "waterResistant": true,
+      "rating": 4.6
+    },
+    {
+      "id": "11",
+      "brand": "Motorola",
+      "model": "Edge 40 Pro",
+      "price": 799,
+      "storage": ["256GB", "512GB"],
+      "color": ["Lunar Blue", "Eclipse Black"],
+      "display": {
+        "size": "6.67-inch",
+        "type": "P-OLED",
+        "resolution": "2400 x 1080 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "camera": {
+        "front": "60 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "50 MP",
+          "telephoto": "12 MP (2x optical zoom)"
+        },
+        "features": ["Ready For wireless PC", "HDR10+", "Dolby Vision"]
+      },
+      "battery": {
+        "capacity": "4600 mAh",
+        "charging": "125W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.7
+    },
+    {
+      "id": "12",
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "price": 599,
+      "storage": ["128GB", "256GB"],
+      "color": ["Black", "White"],
+      "display": {
+        "size": "6.7-inch",
+        "type": "OLED",
+        "resolution": "2412 x 1080 pixels"
+      },
+      "processor": "Qualcomm Snapdragon 8+ Gen 1",
+      "camera": {
+        "front": "32 MP",
+        "rear": {
+          "wide": "50 MP",
+          "ultraWide": "50 MP"
+        },
+        "features": ["Glyph Interface", "Motion Capture 2.0", "Night Mode"]
+      },
+      "battery": {
+        "capacity": "4700 mAh",
+        "charging": "45W wired, 15W wireless"
+      },
+      "5g": true,
+      "waterResistant": true,
+      "rating": 4.5
+    }
+  ]
+}

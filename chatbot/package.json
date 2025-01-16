@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot application for WhatsApp using Flask",
+  "main": "app.py",
+  "scripts": {
+    "start": "flask run --host=127.0.0.1 --port=5000",
+    "dev": "flask run --host=127.0.0.1 --port=5000",
+    "test": "pytest"
+  },
+  "dependencies": {
+    "Flask": "^2.2.0"
+
+  },
+  "devDependencies": {
+
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  },
+  "author": "MOHMED AMAGAR",
+  "license": "MIT"
+}
